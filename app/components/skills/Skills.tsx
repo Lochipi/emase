@@ -1,6 +1,6 @@
-import data from "../../assets/data";
+import data from "../../../assets/data";
 
-const page = () => {
+const Skills = () => {
   const skills = data.map((skill) => {
     return (
       <div
@@ -14,7 +14,7 @@ const page = () => {
   });
 
   return (
-    <div className="">
+    <div className="mt-4 min-h-[90vh]" id="skills">
       <div className="flex justify-center items-center">
         <h2 className="text-3xl inline-block text-orange-700 border-b-4 border-cyan-600 font-bold ">
           Skills
@@ -23,11 +23,11 @@ const page = () => {
       <p className="text-center mt-4 text-gray-400">
         These are the skills I have learned and used in my projects.
       </p>
-      <div className="flex flex-wrap gap-4 mt-4 items-center justify-center w-auto h-auto">
+      <div className="flex flex-wrap gap-4 md:mt-8 items-center justify-center w-auto h-auto">
         {skills}
       </div>
     </div>
   );
 };
 
-export default page;
+export default Skills;
