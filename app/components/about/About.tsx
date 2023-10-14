@@ -3,13 +3,16 @@ import profile from "../../../public/image/fetty.jpg";
 
 function About() {
   return (
-    <div id="about" className="min-h-[90vh] flex flex-col justify-start items-center h-full w-full">
+    <div
+      id="about"
+      className="min-h-[90vh] flex flex-col justify-start items-center h-full w-full"
+    >
       <h2 className="text-3xl text-orange-700 border-b-4 border-cyan-600 font-bold">
         About
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 md:gap-6 mt-4">
         <div className="w-full">
-          <h2 className="text-3xl ">
+          <h2 className="text-3xl text-gray-500">
             Hello, Nice to meet you. Please take a look around!
           </h2>
           <Image
@@ -18,10 +21,10 @@ function About() {
             height={500}
             width={500}
             priority
-            className="object-cover rounded-lg mt-4"
+            className="object-cover h-auto w-auto rounded-lg mt-4"
           />
         </div>
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center text-gray-300">
           <p>
             You can call me Emmett. I was raised in Lodwar, Northern Kenya. I
             love doing things such as reading books, writing, listening to

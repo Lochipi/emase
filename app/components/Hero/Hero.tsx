@@ -4,7 +4,7 @@ import Button from "../Button/Button";
 const Hero = () => {
   return (
     <div>
-      <div className="px-2 md:px-8 mt-4 w-full min-h-[90vh] flex flex-col justify-center">
+      <div className="px-2 md:px-8  w-full min-h-[100vh] flex flex-col justify-center">
         <p className="text-orange-400 md:text-2xl">Hi, my name is</p>
         <h2 className="text-4xl md:text-6xl pt-4 font-extrabold">
           Cornelius Emase <br /> Lochipi
