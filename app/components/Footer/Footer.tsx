@@ -12,8 +12,6 @@ const Footer = () => {
     "Saturday",
   ];
   let day = days[new Date().getDay()];
-
-  console.log();
   return (
     <div className="p-4 text-center text-gray-400 bg-gray-900 min-h-[50px]">
       <p className="font-bold">

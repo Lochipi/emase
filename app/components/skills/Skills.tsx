@@ -1,3 +1,4 @@
+import Image from "next/image";
 import data from "../../../assets/data";
 
 const Skills = () => {
@@ -7,7 +8,13 @@ const Skills = () => {
         key={skill.id}
         className="shadow-md shadow-[#040c16] py-3 hover:scale-110 duration-500 bg-[#000000] max-w-[250px] md:h-[200px] max-h-[200px] cursor-pointer"
       >
-        <img className="w-20 mx-auto" src={skill.icon} alt="icon" />
+        <Image
+          className="w-20 mx-auto"
+          width={200}
+          height={300}
+          src={skill.icon}
+          alt="icon"
+        />
         <p className="my-4 text-center">{skill.name}</p>
       </div>
     );
