@@ -68,7 +68,7 @@ const Projects = () => {
           Projects
         </h2>
         <p className="text-start text-2xl text-gray-300">
-          Some of the Cool stuffs I've built
+          Some of the Cool stuffs I&apos;ve built
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-4 ">

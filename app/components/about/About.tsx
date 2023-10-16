@@ -28,12 +28,12 @@ function About() {
           <p className="sm:text-sm">
             You can call me Emmett. I was raised in Lodwar, Northern Kenya. I
             love doing things such as reading books, writing, listening to
-            music, singing, and travelling. It's the simple pleasures in life
+            music, singing, and travelling. It&apos;s the simple pleasures in life
             that bring me the most joy.
           </p>
           <p className="md:py-4 sm:text-sm">
             I am currently in my final year as a student of Computer Software
-            Engineering at IMurang'a University of Technology. My field of
+            Engineering at Murang&apos;a University of Technology. My field of
             interest is web development specializing in Front-end Engineering,
             but I am also open to trying different things.
           </p>
@@ -44,7 +44,7 @@ function About() {
             various aspects.
           </p>
           <p className="md:py-4 sm:text-sm">
-            I would be thrilled to hear from you, so please don't hesitate to
+            I would be thrilled to hear from you, so please don&apos;t hesitate to
             connect with me via my social media channels!
           </p>
         </div>
