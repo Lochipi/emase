@@ -4,7 +4,7 @@ import blogsData from "@/assets/blogsData";
 
 function Blog() {
   return (
-    <div id="blogs">
+    <div id="blogs" className="p-2">
       <h1 className="text-4xl font-bold">Latest Blog Posts</h1>
       <div>
         {blogsData.map((blog) => (

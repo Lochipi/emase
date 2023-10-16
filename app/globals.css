@@ -16,6 +16,32 @@
   }
 }
 
+@layer base{
+  body{
+      @apply font-[Raleway]
+  }
+  li{
+      @apply px-4;
+      @apply cursor-pointer;
+  }
+}
+
+.content-div{
+  background-repeat : no-repeat;
+  background-size : cover;
+  background-position : center;
+  height: 250px;
+}
+
+.offset-navbar{
+  padding-top: 100px;
+}
+.splines{
+  width: 100px;
+  height: 35%;
+}
+
+
 body {
   color: rgb(var(--foreground-rgb));
   background-color: #0a192f;

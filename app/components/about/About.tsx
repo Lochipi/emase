@@ -1,5 +1,5 @@
 import Image from "next/image";
-import profile from "../../../public/image/fetty.jpg";
+// import profile from "../../../public/image/profile.jpg";
 
 function About() {
   return (
@@ -16,12 +16,12 @@ function About() {
             Hello, Nice to meet you. Please take a look around!
           </h2>
           <Image
-            src={profile}
+            src="/image/profile.jpg"
             alt="profile image"
-            height={500}
+            height={300}
             width={500}
             priority
-            className="object-cover h-auto w-auto rounded-lg mt-4"
+            className="object-cover h-[400px] w-[100%] rounded-lg mt-4"
           />
         </div>
         <div className="flex flex-col justify-center gap-2 items-center text-gray-300">

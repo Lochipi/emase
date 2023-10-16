@@ -25,7 +25,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link href="#about">About</Link>
+          <Link href="#about" className="overflow-y-scroll">About</Link>
         </li>
         <li>
           <Link href="#skills">Skills</Link>

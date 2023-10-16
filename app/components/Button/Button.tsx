@@ -1,7 +1,12 @@
+import Link from "next/link";
+
 const Button = () => {
   return (
     <div>
-      <button className="text-white border p-4 mt-6 group hover:bg-orange-600 transition duration-20">
+      <Link
+        href="#about"
+        className="inline-block text-white border p-4 mt-6 group hover:bg-orange-600 transition duration-20"
+      >
         <span className="hover:rotate-0">Learn More</span>
         <span className="text-1xl">
           {" "}
@@ -10,7 +15,7 @@ const Button = () => {
             &#8594;
           </div>
         </span>
-      </button>
+      </Link>
     </div>
   );
 };

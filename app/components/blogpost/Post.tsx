@@ -2,13 +2,15 @@ import Link from "next/link";
 
 function Post(props: any) {
   return (
-    <div className="text-gray-300 px-20 mt-4 py-2">
+    <div className="text-gray-300 md:px-8 lg:px-20 mt-4 py-2">
       <Link
         href=""
-        className="cursor-pointer transition duration-150 hover:text-blue-500"
+        className="cursor-pointer md:text-gray-300 transition duration-150 hover:text-blue-500"
       >
-        <h1 className="text-3xl">{props.title}</h1>
-        <h5 className="text-2xl">{props.desc}</h5>
+        <h1 className="text-2xl  md:text-3xl">
+          {props.title}
+        </h1>
+        <h5 className="text-1xl md:text-2xl md:text-gray-500">{props.desc}</h5>
       </Link>
       <p className="font-light">
         Posted by{" "}
