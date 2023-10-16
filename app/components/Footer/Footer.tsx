@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTwitterSquare } from "react-icons/fa";
 
 const Footer = () => {
   let days = [
@@ -24,11 +24,17 @@ const Footer = () => {
       <div>
         {/* social icons */}
         <div className="flex justify-center space-x-2 mt-2">
-          <Link href="https://github.com/Lochipi">
+          <Link href="https://github.com/Lochipi" target="_blank">
             <FaGithub className="text-gray-400 text-2xl" />
           </Link>
-          <Link href="https://www.linkedin.com/in/cornelius-emase/">
+          <Link
+            href="https://www.linkedin.com/in/cornelius-emase/"
+            target="_blank"
+          >
             <FaLinkedin className="text-blue-500 text-2xl" />
+          </Link>
+          <Link href="https://twitter.com/EmaseLC" target="_blank">
+            <FaTwitterSquare className="text-blue-400 text-2xl" />
           </Link>
         </div>
       </div>
