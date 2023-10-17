@@ -14,6 +14,7 @@ function Blog() {
             desc={blog.desc}
             date={blog.date}
             time={blog.time}
+            link={blog.link}
           />
         ))}
       </div>

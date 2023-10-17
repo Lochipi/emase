@@ -5,6 +5,7 @@ const blogsData = [
     desc: "Why do I lose a chance to lead a community and what are some of the best practices to do when applying for a lead?",
     time: "5 min",
     date: "18th Sep,2023",
+    link: "https://medium.com/@corneliuslochipi/why-i-got-rejected-as-a-gdsc-lead-b7fc3e4e2ed7",
   },
   {
     id: 2,
@@ -12,6 +13,7 @@ const blogsData = [
     desc: "Staying up-to-date with the latest trends and developments in your field is an important aspect of being a successful developer. While it…",
     time: "4 min",
     date: "31st July,2023",
+    link: "https://corneliusemase.hashnode.dev/a-sneak-peak-into-apis-in-javascript-applications",
   },
   {
     id: 3,
@@ -19,6 +21,7 @@ const blogsData = [
     desc: "Getting started with technical writing ultimate guide. All you need to know about getting started as a Writer!",
     time: "5 min",
     date: "18th June,2023",
+    link: "https://medium.com/@corneliuslochipi/technical-writing-101-technical-ultimate-guide-dbfd09909c51",
   },
   {
     id: 4,
@@ -27,6 +30,7 @@ const blogsData = [
     desc: "Expert-Recommended Strategies for Rendering and Visualizing Data from Arrays in ReactJS",
     time: "3 min",
     date: "30st May,2023",
+    link: "https://corneliusemase.hashnode.dev/best-practices-for-efficiently-rendering-data-from-arrays-in-react-js",
   },
   {
     id: 5,
@@ -34,6 +38,7 @@ const blogsData = [
     desc: "Working with APIs in JavaScript - explaining how to incorporate APIs into JavaScript applications to retrieve and manipulate data from external source",
     time: "4 min",
     date: "4th August,2023",
+    link: "https://corneliusemase.hashnode.dev/a-sneak-peak-into-apis-in-javascript-applications",
   },
 ];
 
