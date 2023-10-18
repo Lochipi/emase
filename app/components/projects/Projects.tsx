@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
-import projectsimg from "@/assets/projectsimg";
+import projectsData from "@/assets/projectsData";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const Projects = () => {
-  const projects = projectsimg.map((project) => (
+  const projects = projectsData.map((project) => (
     <div key={project.id} className="border border-gray-500 mt-4 p-4">
       <div className="relative">
         <Image

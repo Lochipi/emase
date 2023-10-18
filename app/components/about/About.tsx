@@ -25,27 +25,44 @@ function About() {
           />
         </div>
         <div className="flex flex-col justify-center gap-2 items-center text-gray-300">
-          <p className="sm:text-sm">
+          <p className="sm:text-md">
             You can call me Emmett. I was raised in Lodwar, Northern Kenya. I
             love doing things such as reading books, writing, listening to
-            music, singing, and travelling. It&apos;s the simple pleasures in life
-            that bring me the most joy.
+            music, singing, and travelling. It&apos;s the simple pleasures in
+            life that bring me the most joy.
           </p>
-          <p className="md:py-4 sm:text-sm">
-            I am currently in my final year as a student of Computer Software
-            Engineering at Murang&apos;a University of Technology. My field of
-            interest is web development specializing in Front-end Engineering,
-            but I am also open to trying different things.
+          <p className="md:py-4 sm:text-md">
+            Machine Learning Competition, SSA <br />I am delighted to share that
+            I participated in a Machine Learning competition organized by the{" "}
+            <span className="text-orange-400">SSA</span>. It was an incredible
+            experience where I had the opportunity to showcase my skills and
+            knowledge in the field of Machine Learning.
           </p>
-          <p className="sm:text-sm">
-            Through various trainings and internship over the years, I have
-            gained valuable experience that has enhanced my skills. I am
-            fascinated by the field of technology and enjoy exploring its
-            various aspects.
+          <p className="sm:text-md">
+            I am an online writer, I create content for different platforms, you
+            can check them out on{" "}
+            <span>
+              <a
+                href="#"
+                className="hover:text-underline hover:text-blue-500 hover:underline"
+              >
+                Hashnode
+              </a>
+            </span>{" "}
+            and{" "}
+            <span>
+              <a
+                href="#"
+                className="hover:text-underline hover:text-blue-500 hover:underline"
+              >
+                Medium
+              </a>
+            </span>
+            . I major my content on the web and data areas.
           </p>
-          <p className="md:py-4 sm:text-sm">
-            I would be thrilled to hear from you, so please don&apos;t hesitate to
-            connect with me via my social media channels!
+          <p className="md:py-4 sm:text-md">
+            I would be thrilled to hear from you, so please don&apos;t hesitate
+            to connect with me via my social media channels!
           </p>
         </div>
       </div>
