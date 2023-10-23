@@ -21,6 +21,9 @@ function About() {
             height={300}
             width={500}
             priority
+            quality={100}
+            placeholder="blur"
+            blurDataURL="/image/profile.jpg"
             className="object-cover h-[400px] w-[100%] rounded-lg mt-4"
           />
         </div>

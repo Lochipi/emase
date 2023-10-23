@@ -9,9 +9,26 @@ const Contact = () => {
     userMessage: "",
   });
 
+  const [showMessage, setShowMessage] = useState(false);
+
   function handleSubmit(event: any) {
     event.preventDefault();
-    console.log(userData);
+    // console.log(userData);
+
+    const form = event.target.form;
+    if (form.checkValidity()) {
+      setUserData({
+        userName: "",
+        userEmail: "",
+        userMessage: "",
+      });
+
+      setShowMessage(true);
+      setTimeout(() => {
+        setShowMessage(false);
+      }, 3000);
+    }
+    form.reportValidity();
   }
 
   function handleChange(event: any) {
@@ -25,7 +42,12 @@ const Contact = () => {
   }
 
   return (
-    <div className="w-full md:max-h-[90vh] p-4" id="contact">
+    <div className="w-full md:max-h-[90vh] p-4 relative" id="contact">
+      {showMessage && (
+        <div className="absolute top-0 right-0 bg-green-500 text-white p-2">
+          Thank you for your message! Will get in touch soon!
+        </div>
+      )}
       <div className=" max-w-[600px] mx-auto">
         <div className="flex justify-center">
           <h2 className="text-3xl inline-block text-orange-700 border-b-4 border-cyan-600 font-bold ">
