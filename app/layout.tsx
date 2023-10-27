@@ -6,7 +6,7 @@ const ubuntu_Mono = Ubuntu({ subsets: ["latin"], weight: ["400", "700"] });
 
 export const metadata: Metadata = {
   title: "Cornelius | Software Engineer",
-  description: "Portfolio of Cornelius",
+  description: "Cornelius' Portfolio",
 };
 
 export default function RootLayout({

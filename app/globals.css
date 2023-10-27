@@ -16,31 +16,30 @@
   }
 }
 
-@layer base{
-  body{
-      @apply font-[Raleway]
+@layer base {
+  body {
+    @apply font-[Raleway];
   }
-  li{
-      @apply px-4;
-      @apply cursor-pointer;
+  li {
+    @apply px-4;
+    @apply cursor-pointer;
   }
 }
 
-.content-div{
-  background-repeat : no-repeat;
-  background-size : cover;
-  background-position : center;
+.content-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   height: 250px;
 }
 
-.offset-navbar{
+.offset-navbar {
   padding-top: 100px;
 }
-.splines{
+.splines {
   width: 100px;
   height: 35%;
 }
-
 
 body {
   color: rgb(var(--foreground-rgb));
@@ -48,6 +47,10 @@ body {
   padding: 0;
   width: 100%;
   scroll-behavior: smooth;
+}
+
+html {
+  @apply h-full scroll-smooth antialiased;
 }
 
 @media (max-width: 768px) {
