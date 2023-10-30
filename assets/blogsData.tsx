@@ -7,7 +7,6 @@ const blogsData = [
     date: "25th October,2023",
     link: "https://medium.com/@corneliuslochipi/how-technical-writing-is-growing-as-a-career-29263c6924f0",
   },
-  ,
   {
     id: 2,
     title: "Why I got rejected as a GDSC Lead😓",
