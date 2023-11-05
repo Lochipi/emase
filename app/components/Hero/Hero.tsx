@@ -13,18 +13,23 @@ const Hero = () => {
           I&apos;m a Software Engineer
         </h2>
         <p className="pt-4 text-1.5xl">
-          I am a student currently studying Software Engineering at Muranga
+          I am a student currently majoring in Software Engineering at Muranga
           University of Technology. I am in my final year of the program.
-          <br />
-          write now well, start with I am I am honored to have been elected as
-          the <span className="text-orange-400">Web Lead</span> for the 2023/2024 year in the{" "}
+          <br />I am I am honored to have been elected as the{" "}
+          <span className="text-orange-400">Web Lead</span> for the 2023/2024
+          year in the{" "}
           <span className="text-orange-400">
             {" "}
             Google Developer Student Clubs
           </span>{" "}
-          (DSC). I am excited to take on this role and work closely with a
-          talented team to develop and maintain web projects.I&apos;m always eager to learn new things, improve skills with
-          my high curiosity of how something works.
+          (DSC). I also got selected as a{" "}
+          <span className="text-orange-400">
+            Microsoft Learn Student Ambassador
+          </span>
+          . I am excited to take on this role and work closely with a talented
+          team to develop and maintain web projects.I&apos;m always eager to
+          learn new things, improve skills with my high curiosity of how
+          something works.
         </p>
 
         <div>
