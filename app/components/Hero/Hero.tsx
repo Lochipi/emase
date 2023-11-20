@@ -26,7 +26,7 @@ const Hero = () => {
           <span className="text-orange-400">
             Microsoft Learn Student Ambassador
           </span>
-          . I am excited to take on this role and work closely with a talented
+          . I am excited to take on these roles and work closely with a talented
           team to develop and maintain web projects.I&apos;m always eager to
           learn new things, improve skills with my high curiosity of how
           something works.
