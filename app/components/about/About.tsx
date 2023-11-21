@@ -1,5 +1,4 @@
 import Image from "next/image";
-// import profile from "../../../public/image/profile.jpg";
 
 function About() {
   return (
@@ -29,14 +28,18 @@ function About() {
         </div>
         <div className="flex flex-col justify-center gap-2 items-center text-gray-300">
           <p className="sm:text-md">
-            You can call me Emmett. I was raised in Lodwar, Northern Kenya. I
-            love doing things such as reading books, writing, listening to
-            music, singing, and travelling. It&apos;s the simple pleasures in
-            life that bring me the most joy.
+            You can call me <span className="text-orange-400">Emmett</span>. I
+            was raised in Lodwar, Northern Kenya. I love doing things such as
+            reading books, writing, listening to music, singing, and travelling.
+            It&apos;s the simple pleasures in life that bring me the most joy.
           </p>
           <p className="md:py-4 sm:text-md">
-            Machine Learning Competition, SSA <br />I am delighted to share that
-            I participated in a Machine Learning competition organized by the{" "}
+            <span className="text-orange-400">
+              {" "}
+              Machine Learning Competition, SSA
+            </span>{" "}
+            <br />I am delighted to share that I participated in a Machine
+            Learning competition organized by the{" "}
             <span className="text-orange-400">SSA</span>. It was an incredible
             experience where I had the opportunity to showcase my skills and
             knowledge in the field of Machine Learning.
@@ -45,19 +48,13 @@ function About() {
             I am an online writer, I create content for different platforms, you
             can check them out on{" "}
             <span>
-              <a
-                href="#"
-                className="hover:text-underline hover:text-blue-500 hover:underline"
-              >
+              <a href="#" className="text-blue-500 hover:underline">
                 Hashnode
               </a>
             </span>{" "}
             and{" "}
             <span>
-              <a
-                href="#"
-                className="hover:text-underline hover:text-blue-500 hover:underline"
-              >
+              <a href="#" className="text-blue-500 hover:underline">
                 Medium
               </a>
             </span>
