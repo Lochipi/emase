@@ -2,16 +2,24 @@ import Link from "next/link";
 import { FaGithub, FaLinkedin, FaTwitterSquare } from "react-icons/fa";
 
 const Footer = () => {
-    let now = new Date();
-    let day = now.toLocaleDateString("en-US", { 
-      weekday: "long",
-    });
+  const weekday = [
+    "Sunday!",
+    "Monday!",
+    "Tuesday!",
+    "Wednesday!",
+    "Thursday!",
+    "Friday!",
+    "Saturday!",
+  ];
+
+  const date = new Date();
+  let day = weekday[date.getDay()];
 
   return (
     <div className="p-4 text-center text-gray-400 bg-gray-900 min-h-[50px]">
       <p className="font-bold">
-        Hey it&apos;s <span className="text-orange-500">{day}</span> have it nice
-        Major!
+        Hey it&apos;s <span className="text-orange-500">{day}</span> have it
+        nice Major!
       </p>
 
       <div>
