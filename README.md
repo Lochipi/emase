@@ -75,7 +75,7 @@ Edit the file with your personal information, such as your name, job title, emai
 
 ### Projects
 
-Add your projects to the `data/projects.ts` file. Each project should have a title, description, GitHub repository link, and a live demo link if available.
+Add your projects to the `assets/projectsData.tsx` file. Each project should have a title, description, GitHub repository link, and a live demo link if available.
 
 ### Skills
 
@@ -95,7 +95,7 @@ Customize the content of your website by editing the components in the `componen
 
 ## Deployment
 
-To deploy your portfolio website, follow the deployment instructions provided by the platform of your choice. You can deploy it on platforms like Vercel, Netlify, GitHub Pages, or any hosting service that supports Next.js applications.
+To deploy your portfolio website, follow the deployment instructions provided by the platform of your choice. You can deploy it on platforms like \***\*Vercel\*\***, \***\*Netlify\*\***, **_GitHub Pages_**, or any hosting service that supports Next.js applications.
 
 Remember to set environment variables, if necessary, to keep sensitive information secure, and to optimize your website for production deployment. 🌐
 
