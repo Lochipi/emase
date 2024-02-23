@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 function About() {
   return (
@@ -48,15 +49,23 @@ function About() {
             I am an online writer, I create content for different platforms, you
             can check them out on{" "}
             <span>
-              <a href="#" className="text-blue-500 hover:underline">
+              <Link
+                target="_blank"
+                href="https://corneliusemase.hashnode.dev/"
+                className="text-blue-500 hover:underline"
+              >
                 Hashnode
-              </a>
+              </Link>
             </span>{" "}
             and{" "}
             <span>
-              <a href="#" className="text-blue-500 hover:underline">
+              <Link
+                target="_blank"
+                href="https://medium.com/@corneliuslochipi"
+                className="text-blue-500 hover:underline"
+              >
                 Medium
-              </a>
+              </Link>
             </span>
             . I major my content on the web and data areas.
           </p>
