@@ -1,11 +1,11 @@
 const blogsData = [
   {
     id: 1,
-    title: "How technical writing is growing as a career.",
-    desc: "Is technical writing a career by itself? can I build a career by writing?",
+    title: "Understanding JavaScript Behind the Scenes.",
+    desc: "Understanding JavaScript building blocks and core concepts under the hood",
     time: "4 min",
-    date: "25th October,2023",
-    link: "https://medium.com/@corneliuslochipi/how-technical-writing-is-growing-as-a-career-29263c6924f0",
+    date: "25th March,2024",
+    link: "https://corneliusemase.hashnode.dev/understanding-javascript-behind-the-scenes",
   },
   {
     id: 2,
