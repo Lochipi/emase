@@ -4,7 +4,7 @@ const blogsData = [
     title: "Understanding JavaScript Behind the Scenes.",
     desc: "Understanding JavaScript building blocks and core concepts under the hood",
     time: "4 min",
-    date: "25th March,2024",
+    date: "9th March,2024",
     link: "https://corneliusemase.hashnode.dev/understanding-javascript-behind-the-scenes",
   },
   {
