@@ -1,14 +1,12 @@
 import Link from "next/link";
 import { FaGithub, FaLinkedin, FaTwitterSquare } from "react-icons/fa";
-import { currentDayName } from "@/app/utils/dateUtils";
 
 const Footer = () => {
   return (
     <div className="p-4 text-center text-gray-400 bg-gray-900 min-h-[50px]">
       <p className="font-bold">
-        Hey it&apos;s{" "}
-        <span className="text-orange-500">{currentDayName()}</span> have it nice
-        Major!
+        Designed and developed by
+        <span className="text-orange-500 pl-1">Emmett</span>
       </p>
 
       <div>
